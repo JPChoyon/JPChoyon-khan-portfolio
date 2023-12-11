@@ -1,4 +1,5 @@
 import { useTypewriter } from "react-simple-typewriter";
+import { FaDownload } from "react-icons/fa";
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -32,7 +33,7 @@ const Banner = () => {
         data-aos-duration="2000"
         className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl"
       >
-        <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
+        <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5 space-y-4">
           <h2 className="mb-5 font-sans text-3xl font-extrabold tracking-tight text-[#393E46] sm:text-4xl sm:leading-none">
             Hi I Am,
             <br className="hidden md:block" />J P Choyon Khan
@@ -41,6 +42,11 @@ const Banner = () => {
             Working With
             <span className=" text-[#00ADB5]"> {text}</span>
           </p>
+          <div>
+            <button className="btn  bg-[#49d4db] border-0 text-[#EEEEEE]">
+              <FaDownload /> Download CV
+            </button>
+          </div>
         </div>
       </div>
     </div>
