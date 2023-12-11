@@ -1,8 +1,12 @@
-import banner from "../../assets/banner.jpg";
+import { useTypewriter } from "react-simple-typewriter";
 
 const Banner = () => {
+  const [text] = useTypewriter({
+    words: ["Javascript", "React", "Node JS", "Mongo DB"],
+    loop: 10,
+  });
   return (
-    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mb-8">
+    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mb-8 h-full">
       <div
         data-aos="fade-left"
         data-aos-duration="2000"
@@ -19,8 +23,8 @@ const Banner = () => {
 
         <img
           className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-          src={banner}
-          alt=""
+          src="https://raw.githubusercontent.com/JPChoyon/JPChoyon-khan-portfolio/main/src/assets/images/Banner/Banner.jpg"
+          alt="JP Choyon khan website Banner"
         />
       </div>
       <div
@@ -29,14 +33,13 @@ const Banner = () => {
         className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl"
       >
         <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-          <h2 className="mb-5 font-sans text-3xl font-extrabold tracking-tight text-blue-500 sm:text-4xl sm:leading-none">
-            Social Events
-            <br className="hidden md:block" />
-            Grand Celebration
+          <h2 className="mb-5 font-sans text-3xl font-extrabold tracking-tight text-[#98EECC] sm:text-4xl sm:leading-none">
+            Hi I Am,
+            <br className="hidden md:block" />J P Choyon Khan
           </h2>
-          <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-            Join us in celebrating love! Explore our events journey, details,
-            and RSVP for the big day!
+          <p className="font-bold text-3xl">
+            Working With
+            <span className=" text-[#79E0EE]"> {text}</span>
           </p>
         </div>
       </div>
