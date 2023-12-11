@@ -28,7 +28,7 @@ const Navbar = () => {
   );
   return (
     <div>
-      <div className="navbar bg-[#79E0EE] flex justify-between">
+      <div className="navbar bg-[#00ADB5] flex justify-between">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -57,17 +57,18 @@ const Navbar = () => {
           <div className="flex-1 flex gap-4 items-center">
             <img
               className="h-10"
-              src="https://raw.githubusercontent.com/JPChoyon/JPChoyon-khan-portfolio/main/src/assets/images/logo/logo%20dark%20without%20bg.png"
+              src="https://raw.githubusercontent.com/JPChoyon/JPChoyon-khan-portfolio/main/src/assets/images/logo/logo%20light%20without%20bg.png"
               alt="JP Choyon Khan website logo"
             />
-            <h2 className=" text-xl brand-logo"> JPCK</h2>
+            <h2 className=" text-xl brand-logo text-[#EEEEEE]"> JPCK</h2>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 uppercase font-bold">
+          <ul className="menu menu-horizontal px-1 uppercase font-bold text-[#EEEEEE]">
             {menuItem}
           </ul>
         </div>
+        
       </div>
     </div>
   );
