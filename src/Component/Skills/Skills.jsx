@@ -1,18 +1,17 @@
-import './Skills.css'
-import {  FaNode, FaReact } from "react-icons/fa";
+import "./Skills.css";
+import { FaNode, FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { TbBrandJavascript } from "react-icons/tb";
-import coadingImg from '../../assets/images/coading.gif'
-import SectionHeader from '../../SectionHeader/SectionHeader';
+import coadingImg from "../../assets/images/coading.gif";
+import SectionHeader from "../../SectionHeader/SectionHeader";
 
 const Skills = () => {
   return (
     <div>
       <section className="skills section" id="skills">
-        <SectionHeader subtitle={'Skills'} title={'My'}></SectionHeader>
+        <SectionHeader subtitle={"Skills"} title={"My"}></SectionHeader>
         <div className="skills__container flex md:items-center flex-col md:flex-row justify-around">
-          <div className='w-full md:w-[60%]'>
-            
+          <div className="w-auto md:w-[50%]">
             <div className="skills__data">
               <div className="skills__names flex gap-3">
                 <FaReact className="skills__icon" />
@@ -54,8 +53,8 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className='w-full md:w-[20%]'>
-            <img  src={coadingImg} alt="" className="skills__img w-full" />
+          <div className="w-full md:w-[20%]">
+            <img src={coadingImg} alt="" className="skills__img w-full" />
           </div>
         </div>
       </section>

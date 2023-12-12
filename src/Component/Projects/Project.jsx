@@ -24,7 +24,7 @@ const Project = () => {
       <SectionHeader title={"Recent"} subtitle={"Project"}></SectionHeader>
       {/* project 1 */}
       <div className="flex flex-col md:flex-row md:gap-12 items-center justify-center md:justify-normal">
-        <div className="w-96 md:w-[40%]">
+        <div className="w-80 md:w-[40%]">
           <Swiper
             effect={"cards"}
             grabCursor={true}
@@ -91,7 +91,7 @@ const Project = () => {
       </div>
       {/* project 2 */}
       <div className="flex flex-col md:flex-row-reverse md:gap-12 items-center justify-center md:justify-normal">
-        <div className="w-96 md:w-[40%]">
+        <div className="w-80 md:w-[40%]">
           <Swiper
             effect={"cards"}
             grabCursor={true}
