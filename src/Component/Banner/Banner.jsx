@@ -43,9 +43,11 @@ const Banner = () => {
             <span className=" text-[#00ADB5]"> {text}</span>
           </p>
           <div>
-            <button className="btn  bg-[#49d4db] border-0 text-[#EEEEEE]">
-              <FaDownload /> Download CV
-            </button>
+            <a href="https://drive.google.com/u/0/uc?id=1IUP7FOoC_dSgszD4tEx2uCjKS6pekgQL&export=download">
+              <button className="btn  bg-[#49d4db] border-0 text-[#EEEEEE]">
+                <FaDownload /> Download CV
+              </button>
+            </a>
           </div>
         </div>
       </div>
