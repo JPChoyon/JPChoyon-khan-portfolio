@@ -62,7 +62,7 @@ const Project = () => {
           </Swiper>
         </div>
         <div className="space-y-3">
-          <h2 className="font font-semibold text-xl">Hotel Management</h2>
+          <h2 className="font font-semibold text-xl">Hotel Management </h2>
           <p className="text-xs">
             The system allows users to book a room after logging in. Upon
             logging in, users can access the room details page, where they have
