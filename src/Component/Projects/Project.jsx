@@ -1,7 +1,13 @@
+// hotel booking 
 import slide1 from "../../assets/images/project/hotel booking websit.png";
 import slide2 from "../../assets/images/project/Hotel booking 2.png";
 import slide3 from "../../assets/images/project/hotel booking -3.png";
 import slide4 from "../../assets/images/project/hotel booking 4.png";
+// user management system 
+import user1 from "../../assets/images/project/user 1.png";
+import user2 from "../../assets/images/project/user 1.png";
+import user3 from "../../assets/images/project/user 1.png";
+import user4 from "../../assets/images/project/user 1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -95,52 +101,49 @@ const Project = () => {
             <SwiperSlide>
               <img
                 className="md:h-72"
-                src={slide1}
+                src={user1}
                 alt="jpchoyonkhan website project picture"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 className="md:h-72"
-                src={slide2}
+                src={user2}
                 alt="jpchoyonkhan website project picture"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 className="md:h-72"
-                src={slide3}
+                src={user3}
                 alt="jpchoyonkhan website project picture"
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
                 className="md:h-72"
-                src={slide4}
+                src={user4}
                 alt="jpchoyonkhan website project picture"
               />
             </SwiperSlide>
           </Swiper>
         </div>
         <div className="space-y-3">
-          <h2 className="font font-semibold text-xl">Hotel Management</h2>
+          <h2 className="font font-semibold text-xl">User Management System</h2>
           <p className="text-xs">
-            The system allows users to book a room after logging in. Upon
-            logging in, users can access the room details page, where they have
-            the option to book a room by clicking the designated button. After
-            successfully booking a room, users can view their booking details in
-            the "My Booking" section. The booking data is securely stored
-            through JWT tokens. The home page features a scroll parallax for an
-            enhanced visual experience. Additionally, the home page incorporates
-            AOS animations to create a smoother and more engaging user
-            interface. Users can also cancel their booked rooms through the "My
-            Booking" route. Overall, the system aims to provide a seamless and
-            visually appealing experience for users interacting with the booking
-            platform.
+            This user management website facilitates user registration, secure
+            login, and role-based access control. Admins can efficiently manage
+            user roles and permissions, ensuring a personalized and secure
+            experience. The platform includes profile customization, password
+            recovery, and email notifications. Robust security measures, like
+            encryption and multi-factor authentication, safeguard user data. An
+            intuitive dashboard simplifies user account oversight. Overall, the
+            website optimizes user experience, prioritizes security, and
+            empowers administrators with effective account management tools.
           </p>
           <button className="btn  bg-[#49d4db] border-0 text-[#EEEEEE]">
             <a
-              href="https://hotel-booking-jpck.web.app/"
+              href="https://usermangement-jpck.web.app/"
               target="_blank"
               rel="noopener noreferrer"
             >
