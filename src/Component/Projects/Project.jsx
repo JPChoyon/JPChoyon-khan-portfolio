@@ -23,7 +23,7 @@ const Project = () => {
     <div className="space-y-10">
       <SectionHeader title={"Recent"} subtitle={"Project"}></SectionHeader>
       {/* project 1 */}
-      <div className="flex flex-col md:flex-row md:gap-12 items-center justify-center md:justify-normal">
+      <div className="w-full mx-auto flex flex-col md:flex-row md:gap-12 items-center justify-center md:justify-normal">
         <div className="w-80 md:w-[40%]">
           <Swiper
             effect={"cards"}
@@ -61,7 +61,7 @@ const Project = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-3 w-8/12">
           <h2 className="font font-semibold text-xl">Hotel Management </h2>
           <p className="text-xs">
             The system allows users to book a room after logging in. Upon
@@ -90,45 +90,8 @@ const Project = () => {
         </div>
       </div>
       {/* project 2 */}
-      <div className="flex flex-col md:flex-row-reverse md:gap-12 items-center justify-center md:justify-normal">
-        <div className="w-80 md:w-[40%]">
-          <Swiper
-            effect={"cards"}
-            grabCursor={true}
-            modules={[EffectCards]}
-            className="mySwiper"
-          >
-            <SwiperSlide>
-              <img
-                className="md:h-72"
-                src={user1}
-                alt="jpchoyonkhan website project picture"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="md:h-72"
-                src={user2}
-                alt="jpchoyonkhan website project picture"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="md:h-72"
-                src={user3}
-                alt="jpchoyonkhan website project picture"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img
-                className="md:h-72"
-                src={user4}
-                alt="jpchoyonkhan website project picture"
-              />
-            </SwiperSlide>
-          </Swiper>
-        </div>
-        <div className="space-y-3">
+      <div className="flex flex-col md:flex-row items-center justify-center md:justify-normal">
+        <div className="space-y-3 w-8/12">
           <h2 className="font font-semibold text-xl">User Management System</h2>
           <p className="text-xs">
             This user management website facilitates user registration, secure
@@ -147,10 +110,46 @@ const Project = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {" "}
               Live site
             </a>
           </button>
+        </div>
+        <div className="w-80 md:w-3/12">
+          <Swiper
+            effect={"cards"}
+            grabCursor={true}
+            modules={[EffectCards]}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <img
+                className="md:h-72 "
+                src={user1}
+                alt="jpchoyonkhan website project picture"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="md:h-72 "
+                src={user2}
+                alt="jpchoyonkhan website project picture"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="md:h-72 "
+                src={user3}
+                alt="jpchoyonkhan website project picture"
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                className="md:h-72 "
+                src={user4}
+                alt="jpchoyonkhan website project picture"
+              />
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </div>

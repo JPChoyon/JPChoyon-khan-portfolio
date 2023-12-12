@@ -10,7 +10,7 @@ const Skills = () => {
     <div>
       <section className="skills section" id="skills">
         <SectionHeader subtitle={"Skills"} title={"My"}></SectionHeader>
-        <div className="skills__container flex md:items-center flex-col md:flex-row justify-around">
+        <div className="skills__container flex md:items-center flex-col-reverse md:flex-row justify-around">
           <div className="w-auto md:w-[50%]">
             <div className="skills__data">
               <div className="skills__names flex gap-3">
