@@ -1,5 +1,7 @@
 .react-tabs__tab--selected {
-    background: #fff;
-    
-    border-bottom: 3px solid #09ebf7 !important;
+  background: #fff;
+  border-color: none !important;
+  color: black;
+  border-radius: 0px;
+  border-bottom: 3px solid #09ebf7 !important;
 }

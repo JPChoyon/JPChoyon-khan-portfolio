@@ -11,17 +11,22 @@ const Navbar = () => {
       </NavLink>
       <NavLink to={"/"}>
         <li>
-          <a>Project</a>
+          <a>About me</a>
         </li>
       </NavLink>
       <NavLink to={"/"}>
         <li>
-          <a>skills</a>
+          <a>project</a>
         </li>
       </NavLink>
       <NavLink to={"/"}>
         <li>
-          <a>Contact Me</a>
+          <a>skill</a>
+        </li>
+      </NavLink>
+      <NavLink to={"/"}>
+        <li>
+          <a>contact me</a>
         </li>
       </NavLink>
     </>
@@ -68,7 +73,6 @@ const Navbar = () => {
             {menuItem}
           </ul>
         </div>
-        
       </div>
     </div>
   );
