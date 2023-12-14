@@ -2,12 +2,14 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import SectionHeader from "../../SectionHeader/SectionHeader";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import toast from "react-hot-toast";
 
 const Contact = () => {
   const form = useRef();
+  console.log(form);
   const sendEmail = (e) => {
     e.preventDefault();
-
+    console.log(e);
     emailjs
       .sendForm(
         "service_knp75u3",
@@ -17,7 +19,8 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          toast.success("Successfully Email Send");
+          console.log(result);
         },
         (error) => {
           console.log(error.text);
@@ -25,7 +28,7 @@ const Contact = () => {
       );
   };
   return (
-    <div>
+    <div id="contact">
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
@@ -49,7 +52,7 @@ const Contact = () => {
                     <input
                       type="text"
                       id="name"
-                      name="user_name"
+                      name="name"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>
@@ -65,7 +68,7 @@ const Contact = () => {
                     <input
                       type="email"
                       id="email"
-                      name="user_email"
+                      name="email"
                       className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                     />
                   </div>

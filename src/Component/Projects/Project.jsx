@@ -23,7 +23,7 @@ const Project = () => {
     <div className="space-y-10">
       <SectionHeader title={"Recent"} subtitle={"Project"}></SectionHeader>
       {/* project 1 */}
-      <div className="w-full mx-auto flex flex-col md:flex-row md:gap-12 items-center justify-center md:justify-normal">
+      <div id="project" className="w-full mx-auto flex flex-col md:flex-row md:gap-12 items-center justify-center md:justify-normal">
         <div className="w-80 md:w-[40%]">
           <Swiper
             effect={"cards"}

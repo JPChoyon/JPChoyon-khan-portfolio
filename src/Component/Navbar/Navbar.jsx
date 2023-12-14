@@ -1,38 +1,31 @@
-import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
   const menuItem = (
     <>
-      <NavLink to={"/"}>
-        <li>
-          <a>Home</a>
-        </li>
-      </NavLink>
-      <NavLink to={"/"}>
-        <li>
-          <a>About me</a>
-        </li>
-      </NavLink>
-      <NavLink to={"/"}>
-        <li>
-          <a>project</a>
-        </li>
-      </NavLink>
-      <NavLink to={"/"}>
-        <li>
-          <a>skill</a>
-        </li>
-      </NavLink>
-      <NavLink to={"/"}>
-        <li>
-          <a>contact me</a>
-        </li>
-      </NavLink>
+      <li>
+        <a href="#home">Home</a>
+      </li>
+
+      <li>
+        <a href="#about">About me</a>
+      </li>
+
+      <li>
+        <a href="#project">project</a>
+      </li>
+
+      <li>
+        <a href="#skills">skill</a>
+      </li>
+
+      <li>
+        <a href="#contact">contact me</a>
+      </li>
     </>
   );
   return (
-    <div>
+    <div >
       <div className="navbar bg-[#00ADB5] flex justify-between">
         <div className="navbar-start">
           <div className="dropdown">

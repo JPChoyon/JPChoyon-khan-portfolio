@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <SectionHeader title={"About"} subtitle={"Me"}></SectionHeader>
-      <div className="flex flex-col md:flex-row text-center md:text-left justify-evenly  pb-10 items-center ">
+      <div id='about' className="flex flex-col md:flex-row text-center md:text-left justify-evenly  pb-10 items-center ">
         <div className="left-about-container">
           <img
             className="h-96"

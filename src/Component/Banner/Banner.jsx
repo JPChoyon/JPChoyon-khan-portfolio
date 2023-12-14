@@ -3,11 +3,12 @@ import { FaDownload } from "react-icons/fa";
 
 const Banner = () => {
   const [text] = useTypewriter({
+
     words: ["Javascript", "React", "Node JS", "Mongo DB"],
     loop: 10,
   });
   return (
-    <div className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mb-8 h-full">
+    <div href='home' className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mb-8 h-full">
       <div
         data-aos="fade-left"
         data-aos-duration="2000"
