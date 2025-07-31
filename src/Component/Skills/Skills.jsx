@@ -1,11 +1,27 @@
 import "./Skills.css";
-import { FaNode, FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import { TbBrandJavascript } from "react-icons/tb";
-import coadingImg from "../../assets/images/coading.gif";
+import { FaFigma, FaNode } from "react-icons/fa";
+import {
+  SiExpress,
+  SiMongoose,
+  SiPostgresql,
+  SiPrisma,
+  SiTailwindcss,
+  SiTypescript,
+} from "react-icons/si";
+import { TbBrandNextjs, TbBrandRedux } from "react-icons/tb";
+import Lottie from "react-lottie";
+import animationData from "../../assets/images/animation/Developer.json";
 import SectionHeader from "../../SectionHeader/SectionHeader";
 
 const Skills = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <div>
       <section className="skills section" id="skills">
@@ -14,12 +30,22 @@ const Skills = () => {
           <div className="w-auto md:w-[50%]">
             <div className="skills__data">
               <div className="skills__names flex gap-3">
-                <FaReact className="skills__icon" />
-                <span className="skills__name"> React</span>
+                <SiTypescript className="skills__icon" />
+                <span className="skills__name"> Typescript</span>
               </div>
-              <div className="skills__bar skills__html"></div>
+              <div className="skills__bar skills__ts"></div>
               <div>
-                <span className="skills__percentage">80%</span>
+                <span className="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__names flex gap-3">
+                <TbBrandNextjs className="skills__icon" />
+                <span className="skills__name"> NextJs</span>
+              </div>
+              <div className="skills__bar skills__nextjs"></div>
+              <div>
+                <span className="skills__percentage">90%</span>
               </div>
             </div>
             <div className="skills__data ">
@@ -29,17 +55,28 @@ const Skills = () => {
               </div>
               <div className="skills__bar skills__css"></div>
               <div>
+                <span className="skills__percentage">100%</span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__names">
+                <TbBrandRedux className="bx bxl-javascript skills__icon" />
+                <span className="skills__name">Redux</span>
+              </div>
+              <div className="skills__bar skills__redux"></div>
+              <div>
                 <span className="skills__percentage">85%</span>
               </div>
             </div>
             <div className="skills__data">
               <div className="skills__names">
-                <TbBrandJavascript className="bx bxl-javascript skills__icon" />
-                <span className="skills__name">JAVASCRIPT</span>
+                <FaFigma className="bx bxl-javascript skills__icon" />
+                <span className="skills__name">UI/UX Design</span>
               </div>
-              <div className="skills__bar skills__js"></div>
+              <div className="skills__bar skills__ux"></div>
               <div>
-                <span className="skills__percentage">85%</span>
+                <span className="skills__percentage">75%</span>
               </div>
             </div>
             <div className="skills__data">
@@ -47,14 +84,54 @@ const Skills = () => {
                 <FaNode className="bx bxs-paint skills__icon" />
                 <span className="skills__name">Node js</span>
               </div>
-              <div className="skills__bar skills__ux"></div>
+              <div className="skills__bar skills__nodejs"></div>
+              <div>
+                <span className="skills__percentage">90%</span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__names">
+                <SiExpress className="bx bxl-javascript skills__icon" />
+                <span className="skills__name">Express JS</span>
+              </div>
+              <div className="skills__bar skills__express"></div>
+              <div>
+                <span className="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__names">
+                <SiPostgresql className="bx bxl-javascript skills__icon" />
+                <span className="skills__name">PostgreSQL</span>
+              </div>
+              <div className="skills__bar skills__postgresql"></div>
+              <div>
+                <span className="skills__percentage">70%</span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__names">
+                <SiPrisma className="bx bxl-javascript skills__icon" />
+                <span className="skills__name">Prisma</span>
+              </div>
+              <div className="skills__bar skills__prisma"></div>
+              <div>
+                <span className="skills__percentage">80%</span>
+              </div>
+            </div>
+            <div className="skills__data">
+              <div className="skills__names">
+                <SiMongoose className="bx bxl-javascript skills__icon" />
+                <span className="skills__name">Docker</span>
+              </div>
+              <div className="skills__bar skills__docker"></div>
               <div>
                 <span className="skills__percentage">65%</span>
               </div>
             </div>
           </div>
           <div className="w-full md:w-[20%]">
-            <img src={coadingImg} alt="" className="skills__img w-full" />
+            <Lottie options={defaultOptions} height={300} width={350} />
           </div>
         </div>
       </section>

@@ -81,20 +81,41 @@
   z-index: var(--z-back);
 }
 
+.skills__ts {
+  width: 95%;
+}
+.skills__nextjs {
+  width: 90%;
+}
 .skills__html {
   width: 80%;
 }
 
 .skills__css {
-  width: 85%;
-}
-
-.skills__js {
-  width: 85%;
+  width: 100%;
 }
 
 .skills__ux {
+  width: 75%;
+}
+
+.skills__docker {
   width: 65%;
+}
+.skills__nodejs {
+  width: 90%;
+}
+.skills__redux {
+  width: 85%;
+}
+.skills__express {
+  width: 85%;
+}
+.skills__prisma {
+  width: 80%;
+}
+.skills__postgresql {
+  width: 70%;
 }
 
 .skills__img {

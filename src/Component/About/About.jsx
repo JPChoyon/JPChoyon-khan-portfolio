@@ -1,13 +1,15 @@
 import { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import aboutImg from "../../assets/images/About/IMG_20230127_203548.jpg";
+import aboutImg from "../../assets/images/About/passport_.jpg";
 import SectionHeader from "../../SectionHeader/SectionHeader";
+
 import "./About.css";
 
 const About = () => {
   const [tabIndex, setTabIndex] = useState(0);
   const title = ["Experiance", "Education"];
+
   return (
     <>
       <SectionHeader title={"About"} subtitle={"Me"}></SectionHeader>
