@@ -5,3 +5,6 @@
   border-radius: 0px;
   border-bottom: 3px solid #09ebf7 !important;
 }
+.selected {
+  outline:none !important;
+}

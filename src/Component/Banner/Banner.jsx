@@ -4,11 +4,14 @@ import { FaDownload } from "react-icons/fa";
 const Banner = () => {
   const [text] = useTypewriter({
 
-    words: ["Javascript", "React", "Node JS", "Mongo DB"],
+    words: ["Typescript", "NextJS", "Node JS", "Mongoose", "Express JS", "Prisma"],
     loop: 10,
   });
   return (
-    <div href='home' className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mb-8 h-full">
+    <div
+      href="home"
+      className="relative flex flex-col-reverse py-16 lg:pt-0 lg:flex-col lg:pb-0 mb-8 h-full"
+    >
       <div
         data-aos="fade-left"
         data-aos-duration="2000"
@@ -43,10 +46,15 @@ const Banner = () => {
             Working With
             <span className=" text-[#00ADB5]"> {text}</span>
           </p>
-          <div>
+          <div className="flex gap-3">
             <a href="https://drive.google.com/u/0/uc?id=1IUP7FOoC_dSgszD4tEx2uCjKS6pekgQL&export=download">
-              <button className="btn  bg-[#49d4db] border-0 text-[#EEEEEE]">
+              <button className="btn   bg-[#49d4db] hover:bg-[#28888d] border-0 text-[#EEEEEE]">
                 <FaDownload /> Download CV
+              </button>
+            </a>
+            <a href="https://drive.google.com/u/0/uc?id=1IUP7FOoC_dSgszD4tEx2uCjKS6pekgQL&export=download">
+              <button className="btn  bg-[#6FD164] border-0 text-[#EEEEEE] hover:bg-[#247c1a]">
+                <FaDownload /> View CV
               </button>
             </a>
           </div>
