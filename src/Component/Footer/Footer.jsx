@@ -17,9 +17,15 @@ const Footer = () => {
           <h2 className="footer-heading">Follow US</h2>
           <p className="footer-pera">Join us on social media</p>
           <div className="footer-social-icon-container w-40 flex mx-auto  gap-5  text-3xl">
-            <FaFacebook></FaFacebook>
-            <FaInstagramSquare></FaInstagramSquare>
-            <FaTwitter></FaTwitter>
+            <a href="https://www.facebook.com/jpchoyon.khan.130" target="blank">
+              <FaFacebook></FaFacebook>
+            </a>
+            <a href="https://www.instagram.com/jpchoyonkhan130" target="blank">
+              <FaInstagramSquare></FaInstagramSquare>
+            </a>
+            <a href="https://x.com/jpchoyonkhan1" target="blank">
+              <FaTwitter></FaTwitter>
+            </a>
           </div>
         </div>
       </div>

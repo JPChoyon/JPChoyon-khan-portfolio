@@ -21,8 +21,10 @@ const Contact = () => {
         (result) => {
           toast.success("Successfully Email Send");
           console.log(result);
+          e.target.reset();
         },
         (error) => {
+          toast.error("Email Send Failed");
           console.log(error.text);
         }
       );
