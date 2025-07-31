@@ -46,13 +46,14 @@ const Banner = () => {
             Working With
             <span className=" text-[#00ADB5]"> {text}</span>
           </p>
+
           <div className="flex gap-3">
-            <a href="https://drive.google.com/u/0/uc?id=1IUP7FOoC_dSgszD4tEx2uCjKS6pekgQL&export=download">
+            <a href="https://drive.google.com/u/0/uc?id=1Fz-DAYriChPf7Fwgb8-otGFow67fCUHX&export=download">
               <button className="btn   bg-[#49d4db] hover:bg-[#28888d] border-0 text-[#EEEEEE]">
                 <FaDownload /> Download CV
               </button>
             </a>
-            <a href="https://drive.google.com/u/0/uc?id=1IUP7FOoC_dSgszD4tEx2uCjKS6pekgQL&export=download">
+            <a href="https://drive.google.com/file/d/1Fz-DAYriChPf7Fwgb8-otGFow67fCUHX/preview">
               <button className="btn  bg-[#6FD164] border-0 text-[#EEEEEE] hover:bg-[#247c1a]">
                 <FaDownload /> View CV
               </button>
