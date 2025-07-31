@@ -25,7 +25,7 @@ const About = () => {
           />
         </div>
         <div className="right-container md:w-[60%] space-y-3">
-          <p className="text-xl text-justify">
+          <p className="md:text-xl text-base text-justify mt-5">
             I specialize in <b> full-stack</b> web development, proficient in
             <b> Mongoose</b> and <b> Prisma</b> for database management,
             <b> Express.js</b> for server-side logic, <b> NextJs</b> for dynamic
@@ -36,7 +36,7 @@ const About = () => {
           {/* tab  */}
           <div>
             <Tabs
-              className="space-y-3"
+              className="space-y-3 mt-5"
               selectedIndex={tabIndex}
               onSelect={(index) => setTabIndex(index)}
             >

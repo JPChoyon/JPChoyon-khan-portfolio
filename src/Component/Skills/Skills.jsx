@@ -130,8 +130,8 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-[20%]">
-            <Lottie options={defaultOptions} height={300} width={350} />
+          <div className="w-full  md:w-[35%] ">
+            <Lottie options={defaultOptions} className="md:w-64 " />
           </div>
         </div>
       </section>

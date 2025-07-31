@@ -1,6 +1,5 @@
 import { useTypewriter } from "react-simple-typewriter";
 import { FaDownload } from "react-icons/fa";
-
 import "./style.css";
 
 const Banner = () => {
@@ -62,13 +61,13 @@ const Banner = () => {
           </span>
 
           {/* Heading */}
-          <h2 className="mb-5 font-sans text-3xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-[#00ADB5] via-[#6FD164] to-[#393E46] animate-gradient sm:text-4xl sm:leading-none">
+          <h2 className="mb-5 font-sans text-xl md:text-3xl font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-r from-[#00ADB5] via-[#6FD164] to-[#393E46] animate-gradient sm:text-4xl sm:leading-none">
             Hi I Am,
-            <br className="hidden md:block" />J P Choyon Khan
+            <br className="hidden md:block" /> J P Choyon Khan
           </h2>
 
           {/* Typewriter */}
-          <p className="font-bold text-3xl">
+          <p className="font-bold text-xl md:text-3xl">
             Working With
             <span className="text-[#00ADB5] ml-2">
               {text}
@@ -92,7 +91,7 @@ const Banner = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn bg-[#6FD164] hover:bg-[#247c1a] border-0 text-[#EEEEEE] transform transition-transform duration-300 hover:-translate-y-1">
+              <button className="btn  bg-[#6FD164] hover:bg-[#247c1a] border-0 text-[#EEEEEE] transform transition-transform duration-300 hover:-translate-y-1">
                 <FaDownload /> View CV
               </button>
             </a>
@@ -102,5 +101,4 @@ const Banner = () => {
     </div>
   );
 };
-// AOS.init();
 export default Banner;
