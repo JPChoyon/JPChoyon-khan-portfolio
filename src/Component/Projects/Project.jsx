@@ -25,7 +25,7 @@ const Project = () => {
       {/* project 1 */}
       <div id="project" className="w-full mx-auto flex flex-col md:flex-row md:gap-12 items-center justify-center md:justify-normal">
         <div className="w-80 md:w-[40%]">
-          <Swiper
+          {/* <Swiper
             effect={"cards"}
             grabCursor={true}
             modules={[EffectCards]}
@@ -59,7 +59,7 @@ const Project = () => {
                 alt="jpchoyonkhan website project picture"
               />
             </SwiperSlide>
-          </Swiper>
+          </Swiper> */}
         </div>
         <div className="space-y-3 w-8/12">
           <h2 className="font font-semibold text-xl">Hotel Management </h2>
@@ -115,7 +115,7 @@ const Project = () => {
           </button>
         </div>
         <div className="w-80 md:w-3/12">
-          <Swiper
+          {/* <Swiper
             effect={"cards"}
             grabCursor={true}
             modules={[EffectCards]}
@@ -149,7 +149,7 @@ const Project = () => {
                 alt="jpchoyonkhan website project picture"
               />
             </SwiperSlide>
-          </Swiper>
+          </Swiper> */}
         </div>
       </div>
     </div>
