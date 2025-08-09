@@ -251,7 +251,7 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <section id="projects" className="py-10 bg-gray-100">
+    <section id="project" className="py-10 bg-gray-100">
       <div className="container mx-auto px-4">
         <SectionHeader title={"Recent"} subtitle={"Project"}></SectionHeader>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center justify-content-center">
