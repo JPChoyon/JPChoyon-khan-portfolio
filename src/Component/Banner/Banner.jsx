@@ -78,7 +78,7 @@ const Banner = () => {
           {/* Buttons */}
           <div className="flex gap-3">
             <a
-              href="https://drive.google.com/u/0/uc?id=1Fz-DAYriChPf7Fwgb8-otGFow67fCUHX&export=download"
+              href="https://drive.google.com/u/0/uc?id=1MfKbtcV4HPHsL83Ymu7NU9RaVNDr0w9T&export=download"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -87,7 +87,7 @@ const Banner = () => {
               </button>
             </a>
             <a
-              href="https://drive.google.com/file/d/1Fz-DAYriChPf7Fwgb8-otGFow67fCUHX/preview"
+              href="https://drive.google.com/file/d/1MfKbtcV4HPHsL83Ymu7NU9RaVNDr0w9T/preview"
               target="_blank"
               rel="noopener noreferrer"
             >
