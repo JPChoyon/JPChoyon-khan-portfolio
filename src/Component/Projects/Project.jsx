@@ -217,7 +217,7 @@ const AutoScrollImage = ({ image, height }) => {
 // ===== Project Card =====
 const ProjectCard = ({ project, onDetails }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition ">
       <AutoScrollImage image={project.scrollImg} height="h-48" />
 
       <div className="p-4">
@@ -252,7 +252,7 @@ const Projects = () => {
 
   return (
     <section id="project" className="py-10 bg-gray-100">
-      <div className="container mx-auto px-4">
+      <div className=" mx-auto px-4 md:px-12">
         <SectionHeader title={"Recent"} subtitle={"Project"}></SectionHeader>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center justify-content-center">
           {projectsData.map((project) => (
