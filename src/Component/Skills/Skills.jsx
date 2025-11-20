@@ -1,4 +1,4 @@
-import "./Skills.css";
+import './skills.css';
 import { FaFigma, FaNode } from "react-icons/fa";
 import {
   SiExpress,

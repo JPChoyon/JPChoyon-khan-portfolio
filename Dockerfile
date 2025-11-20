@@ -2,14 +2,18 @@ FROM node:20
 
 WORKDIR /app
 
-COPY package*.json ./
+# Copy only package files first
+COPY package.json package-lock.json ./
 
+# Install dependencies inside container
 RUN npm install
 
+# Now copy the rest of the project
 COPY . .
 
-RUN npm run build   # build Vite app
+# Build Vite app
+RUN npm run build
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+CMD ["npm", "run", "preview"]
