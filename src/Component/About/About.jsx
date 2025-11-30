@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import aboutImg from "../../assets/images/About/passport_.jpg";
+import aboutImg from "../../assets/images/About/about.png";
 import SectionHeader from "../../SectionHeader/SectionHeader";
 import "./About.css";
 

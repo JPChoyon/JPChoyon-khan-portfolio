@@ -43,7 +43,7 @@ const Banner = () => {
 
         <img
           className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-          src="https://raw.githubusercontent.com/JPChoyon/JPChoyon-khan-portfolio/main/src/assets/images/Banner/Banner.jpg"
+          src="https://raw.githubusercontent.com/JPChoyon/JPChoyon-khan-portfolio/main/src/assets/images/Banner/Banner.png"
           alt="JP Choyon khan website Banner"
         />
       </div>
